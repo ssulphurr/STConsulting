@@ -25,7 +25,7 @@ function emailSend() {
     Password: "C98B082010B044D8069702553DE7EF869168",
     To: "begemotys@gmail.com",
     From: "begemotys@gmail.com",
-    Subject: "Нова заявка на консультацію",
+    Subject: "Нова заявка на консультацію ST Cnsulting",
     Body: messageBody,
   }).then((message) => {
     if (message == "OK") {

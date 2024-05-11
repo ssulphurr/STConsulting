@@ -248,4 +248,11 @@ form {
   cursor: pointer;
   box-shadow: #fbbd0d 0px 5px 15px;
   border-radius: 8px;
+  background-color: #fbbd0d;
+}
+
+.svgIcon {
+  width: 33px;
+  height: 33px;
+  fill: #faf5e6;
 }
