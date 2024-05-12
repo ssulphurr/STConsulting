@@ -60,6 +60,7 @@ a {
 .main_container {
   width: 1040px;
   margin: auto;
+  position: relative;
 }
 
 .main_container_nav {
@@ -94,8 +95,8 @@ a {
 
 .sereja_ellipse {
   position: absolute;
-  top: 160px;
-  right: 122px;
+  top: 94px;
+  right: -80px;
 }
 
 .img_sereja {
