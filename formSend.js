@@ -21,10 +21,10 @@ function emailSend() {
 
   Email.send({
     Host: "smtp.elasticemail.com",
-    Username: "begemotys@gmail.com",
-    Password: "C98B082010B044D8069702553DE7EF869168",
-    To: "begemotys@gmail.com",
-    From: "begemotys@gmail.com",
+    Username: "chaikovsky.serhii@gmail.com",
+    Password: "C1A651F95F4C1E3C15F7411093E24D4768DE",
+    To: "chaikovsky.serhii@gmail.com",
+    From: "chaikovsky.serhii@gmail.com",
     Subject: "Нова заявка на консультацію ST Cnsulting",
     Body: messageBody,
   }).then((message) => {
