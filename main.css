@@ -84,13 +84,18 @@ a {
   flex-direction: row;
 }
 
-/* .section_dark {
-  background-color: #141414;
-  color: white;
-} */
+.section_dark {
+  height: 820px;
+}
 
 .sereja_text {
   width: 570px;
+}
+
+.first_paragraph {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
 }
 
 .sereja_ellipse {
@@ -256,4 +261,147 @@ form {
   width: 33px;
   height: 33px;
   fill: #faf5e6;
+}
+
+@media (min-width: 821px) {
+  .mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 820px) {
+  /* .mega_container {
+    margin: 0 auto;
+  } */
+
+  .desktop {
+    display: none;
+  }
+
+  h1,
+  h2 {
+    font-size: 20px;
+    padding: 20px 0;
+  }
+
+  .first_paragraph {
+    font-size: 16px;
+    margin-bottom: 468px;
+  }
+
+  .nav {
+    height: 40px;
+  }
+
+  .section_dark {
+    height: 900px;
+  }
+
+  .section_bright {
+    padding-bottom: 20px;
+  }
+
+  .main_container {
+    width: 340px;
+    margin: auto;
+    position: relative;
+  }
+
+  .main_container_nav {
+    width: 340px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .sereja_text {
+    width: 100%;
+  }
+
+  .paragraphs {
+    width: 100%;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .sereja_ellipse {
+    position: absolute;
+    top: 160px;
+    right: 0;
+  }
+
+  .btn.mobile {
+    position: absolute;
+    bottom: 290px;
+    left: 64px;
+    z-index: 4;
+    border: 50px;
+  }
+
+  .img_sereja {
+    width: 341px;
+    z-index: 3;
+  }
+  .img_ellipse {
+    position: absolute;
+    width: 335px;
+    top: -30px;
+    right: -5px;
+    z-index: -1;
+  }
+
+  .img_logo {
+    width: 32px;
+  }
+
+  .logo_text {
+    font-family: "Courier Prime", monospace;
+    font-size: 20px;
+    width: 170px;
+  }
+
+  .krok {
+    width: 340px;
+  }
+
+  .forma {
+    flex-direction: column;
+    width: 340px;
+  }
+
+  .input {
+    width: 320px;
+  }
+
+  label,
+  p {
+    width: 340px;
+  }
+
+  .textarea {
+    border-radius: 16px;
+    border: 1px solid #fbbd0d;
+    height: 157px;
+    padding: 12px;
+    max-width: 320px;
+    min-width: 320px;
+    min-height: 80px;
+    max-height: 200px;
+  }
+
+  .section_yellow {
+    height: 100%;
+  }
+
+  .section_yellow .btn {
+    margin-bottom: 40px;
+  }
+
+  .footer {
+    height: 140px;
+  }
 }
